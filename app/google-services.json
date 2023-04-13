@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "121247940409",
+    "project_id": "androidsadecafe",
+    "storage_bucket": "androidsadecafe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121247940409:android:4cf223102491d31ac1b2e8",
+        "android_client_info": {
+          "package_name": "edmt.dev.androidsadecafe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "121247940409-tsmi1bi238ipi1b95ff7n470tvjdvl9o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edmt.dev.androidsadecafe",
+            "certificate_hash": "e8c6375063658baf613e9359f0da128352755497"
+          }
+        },
+        {
+          "client_id": "121247940409-94bce08fpg3tqbov30qkdqrvqkmea03e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCujAe_aNpAkaSI3wrl_1quT9nSBoT6CX4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "121247940409-94bce08fpg3tqbov30qkdqrvqkmea03e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
