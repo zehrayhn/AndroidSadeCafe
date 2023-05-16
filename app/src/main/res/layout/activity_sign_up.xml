@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".SignIn">
+    tools:context=".SignUp">
 
     <LinearLayout
         android:orientation="vertical"
@@ -14,16 +14,17 @@
         android:layout_centerInParent="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-       <EditText
-           android:id="@+id/txtPhone"
-           android:hint="Phone Number"
-           android:layout_width="match_parent"
-           android:layout_height="wrap_content"
-           android:text="05537898944"
-           android:textColor="@android:color/white"
-           android:textSize="34dp"
-           android:inputType="phone"
-           />
+        <EditText
+            android:id="@+id/txtPhone"
+            android:hint="Phone Number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="05537898944"
+            android:textColor="@android:color/white"
+            android:textSize="34dp"
+            android:inputType="phone"
+            />
+
 
         <EditText
             android:id="@+id/txtPassword"
@@ -36,14 +37,23 @@
             android:inputType="textPassword"
             />
 
-
+        <EditText
+            android:id="@+id/txtName"
+            android:hint="Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Zehra Ayhan"
+            android:textColor="@android:color/white"
+            android:textSize="34dp"
+            android:inputType="textPersonName"
+            />
 
 
 
     </LinearLayout>
     <Button
-        android:id="@+id/btnSignIn"
-        android:text="Sıgn In"
+        android:id="@+id/btnSignUp"
+        android:text="Sign Up"
         android:textColor="@android:color/white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
