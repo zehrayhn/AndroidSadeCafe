@@ -55,7 +55,7 @@ public class SignUp extends AppCompatActivity {
                             mDialog.dismiss();
                             User user=new User(txtName.getText().toString(),txtPassword.getText().toString());
                             table_user.child(txtPhone.getText().toString()).setValue(user);
-                            Toast.makeText(SignUp.this, "Başarıyla kaydolundu.", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(SignUp.this, "Başarıyla kayıt olundu.", Toast.LENGTH_SHORT).show();
                             finish();
                         }
                     }
